@@ -1,2 +1,9 @@
-<h1>Events#index</h1>
-<p>Find me in app/views/events/index.html.erb</p>
+<h3>Past Events</h3>
+<% @past_events.each do |event| %>
+    <h5><%= event.name %></h5>
+<% end %>
+
+<h3>Future Events</h3>
+<% @future_events.each do |event| %>
+    <h5><%= event.name %></h5>
+<% end %>
