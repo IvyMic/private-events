@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project was designed so that I could get the hang of many-to-many relationships
+in Ruby. CSS and general functionality was of no concern (as clear by the lack of
+validation, error-checking, testing etc). I used a has-many-through table and also used
+scopes for the first time. I also used custom foreign keys and sourcing to develop
+more complex relationships.
